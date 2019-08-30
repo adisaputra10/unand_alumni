@@ -1,0 +1,37 @@
+<?php
+
+use yii\helpers\Html;
+
+/* @var $this \yii\web\View */
+/* @var $content string */
+
+app\assets\AppAssetPrint::register($this);
+//dmstr\web\AdminLteAsset::register($this);
+?>
+<?php $this->beginPage() ?>
+<!DOCTYPE html>
+<html lang="<?= Yii::$app->language ?>">
+    <head>
+        <meta charset="<?= Yii::$app->charset ?>"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <?= Html::csrfMetaTags() ?>
+        <title><?php echo Yii::$app->name . ' - '; ?><?= Html::encode($this->title) ?></title>
+        <?php $this->head() ?>
+    </head>
+    <body style="margin: 5px;">
+        <script>
+            window.print();
+        </script>
+        <?php $this->beginBody() ?>
+        <div class="print-area">
+            <?php
+            echo $this->render(
+                    'header-print.php', []
+            );
+            ?>
+            <?= $content ?>
+        </div>
+        <?php $this->endBody() ?>
+    </body>
+</html>
+<?php $this->endPage() ?>
