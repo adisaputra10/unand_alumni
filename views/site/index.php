@@ -44,9 +44,9 @@ $this->title = 'Beranda';
                 <div style="margin-bottom: 10px;">
                         </div>
 
-                        <img class="mySlides" height="500px" src="http://localhost:82/web/alumni/web/image?filename=manual%2Ffarmasi.jpg" style="width:100%">
+                        <img class="mySlides" height="500px" src="https://raw.githubusercontent.com/adisaputra10/unand_alumni/master/web/images/manual/farmasi.jpg" style="width:100%">
   <img class="mySlides" height="500px" src="https://akademik.unand.ac.id/images/resized/images/resized/images/sampledata/slideshow/Pak_deri_960_300.png" style="width:100%">
-  <img class="mySlides" height="500px"  src="http://localhost:82/web/alumni/web/image?filename=manual%2Ffarmasi.jpg" style="width:100%">
+  <img class="mySlides" height="500px"  src="https://raw.githubusercontent.com/adisaputra10/unand_alumni/master/web/images/manual/farmasi.jpg" style="width:100%">
 
 
 
