@@ -72,9 +72,12 @@ $this->title = 'Beranda';
                 </div>
                 <div class="panel-body center" style="padding-bottom: 15px;">
                     <?php
+                  //  var_dump($berita);
                     foreach ($berita as $valBe) {
                         ?>
-                        <h4><a href="<?php echo Url::to(['berita', 'act' => 'more', 'key' => $valBe['id']]); ?>"><?php echo $valBe['title']; ?></a></h4>
+                        <h4><a href="<?php echo Url::to(['berita', 'act' => 'list']); ?>"><?php echo $valBe['title']; ?></a></h4>
+                       
+                
                         <h5 style="font-style: italic;font-size: 12px;margin-top: -8px;">Last Update <?php echo $inDate->setDateTime($valBe['create_time']); ?></h5>
                         <div style="margin-bottom: 5px;">
                             <?php echo $valBe['content']; ?>
