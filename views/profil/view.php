@@ -11,7 +11,7 @@ use app\assets\AppAsset;
 $this->title = 'Profil';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="app-user-view">
+<div class="app-user-view">aaaaa
 
     <?php
     if ($isView == 'member') {

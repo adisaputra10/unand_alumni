@@ -58,6 +58,67 @@ $this->title = 'Beranda';
     </div>
 
 
+
+
+    <div class="row">
+
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-body center" style="padding-bottom: 0px;">
+                    <div class="well">
+                        <div class="panel-body center" >
+                            <h4 style="font-style: italic;font-weight: bold;font-size: 20px;">Selamat datang di - Universitas Andalas</h4>
+                            <p style="text-align: justify;">
+                                <b><i>Sistem Informasi Alumni Fakultas di Universitas Andalas</i></b> <i></i> .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-body center" style="padding-bottom: 0px;">
+                    <div class="well">
+                        <div class="panel-body center" >
+                 
+                 
+                        <img  height="100px" src="https://raw.githubusercontent.com/adisaputra10/unand_alumni/master/web/images/manual/farmasi.jpg" style="width:100%">
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-body center" style="padding-bottom: 0px;">
+                    <div class="well">
+                        <div class="panel-body center" >
+                            <h4 style="font-style: italic;font-weight: bold;font-size: 20px;">Selamat datang di - Universitas Andalas</h4>
+                            <p style="text-align: justify;">
+                                <b><i>Sistem Informasi Alumni Fakultas di Universitas Andalas</i></b> <i></i> .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
     
 
 

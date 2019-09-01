@@ -47,10 +47,16 @@ if (strlen($userNama) > 15) {
                     ['label' => 'MAIN NAVIGATION', 'icon' => 'fa fa-home', 'options' => ['class' => 'header']],
                     ['label' => 'Home', 'icon' => 'home', 'url' => ['/site/index']],
                    // ['label' => 'Update Profil', 'icon' => 'tag', 'url' => ['/site/post']],
-                 ['label' => 'Update Profil ', 'icon' => 'history', 'url' => ['/daftar/identitas-alumni/update']],
+                   ['label' => 'Data Alumni ', 'icon' => 'history', 'url' => ['/daftar/identitas-alumni/index']],
+
+                // ['label' => 'Update Profil ', 'icon' => 'history', 'url' => ['/daftar/identitas-alumni/update']],
                       // ['label' => 'Berita', 'icon' => 'calendar', 'url' => ['/daftar/post/index']],
                    
                     ['label' => 'View Biodata', 'icon' => 'user-secret', 'url' => ['/daftar/identitas-alumni/view']],
+
+                    ['label' => ' Agenda', 'icon' => 'user-secret', 'url' => ['/daftar/kegiatan/index']],
+                    ['label' => ' Tracer Study', 'icon' => 'user-secret', 'url' => ['/daftar/tracer-study/index']],
+
                     ['label' => 'Data Lulusan Fakultas ', 'icon' => 'key', 'url' => ['/daftar/wisuda-wisudawan/index']],
                 
             ]
