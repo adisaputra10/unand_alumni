@@ -15,35 +15,83 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
-    <p>
-        <?= Html::a('Create Tracer Study', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
+   
+    
+<?php 
+ include_once( dirname(__FILE__) . "/../../../../database.php");
+?>
 
-    <?= GridView::widget([
-        'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
-        'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
 
-            'idtracer',
-            'idalumni',
-            'alamatemail:email',
-            'hp',
-            'tahunangkatan',
-            'tahunlulus',
-            //'masatunggu',
-            //'institusipertama',
-            //'pekerjaanpertama',
-            //'gajipertama',
-            //'pekerjaanskrg',
-            //'posisiskrg',
-            //'gajiskrg',
-            //'lokasiskrg',
-            //'relevansiilmu',
-            //'saran:ntext',
 
-            ['class' => 'yii\grid\ActionColumn'],
-        ],
-    ]); ?>
-    sss
+
+
+
+
+
+
+    <div class="panel-body" style="padding:3px;">
+        <div class="table-responsive">
+            <table class="table-bordered table-condensed table-striped" style="margin-bottom: 5px;width: 100%;">
+                <thead>
+                    <tr>
+                        <th rowspan="2" style="width: 40px;text-align: center;">No</th>
+                        <th rowspan="2" style="width: 200px;text-align: left;">Program Studi</th>
+                        <th rowspan="2" style="width: 100px;text-align: center;">Jenjang</th>
+                        <th colspan="2" style="width: 100px;text-align: center;">Jumlah</th>
+                        <th rowspan="2" style="width: 80px;text-align: center;">Sub Total</th>
+                    </tr>
+                    <tr>
+                        <th style="width: 50px;text-align: center;">L</th>
+                        <th style="width: 50px;text-align: center;">P</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  
+                           <?php 
+                           
+                           function jumlahL($prod_id) {
+                            $tampil = mysql_query("SELECT  count(*) as total FROM identitasalumni where idprodi='$prod_id'  ");
+                            $data=mysql_fetch_assoc($tampil);
+                            return $data['total'];
+                           // return $r;
+                        }
+                           
+                           
+                           $no=1; $tampil = mysql_query("SELECT  * FROM ref_prodi_nasional order by 	prodiJenjang ");
+             while($r=mysql_fetch_array($tampil)){ ?>
+                                <tr>
+                                    <td style="text-align: right;"><?php echo $no; ?>  	</td>
+                                    <td style="vertical-align: top;"><?php echo $r['prodiNama']; ?> </td>
+                                    <td style="vertical-align: top;text-align: center;"><?php echo $r['prodiJenjang']; ?> </td>
+                                    <td style="vertical-align: top;text-align: center;"><?php  echo jumlahL($r['prodiKode']); ?> </td>
+                                    <td style="vertical-align: top;text-align: center;"><?php  echo jumlahL($r['prodiKode']); ?></td>
+                                    <td style="vertical-align: top;text-align: center;"><?php  echo jumlahL($r['prodiKode']); ?></td>
+                                </tr>
+                           
+                                <?php $no++;
+                            }
+                        
+                        ?>
+                        <tr>
+                            <td colspan="5" style="text-align: right;"><b>Total</b></td>
+                            <td style="text-align: center;"><b>total</b></td>
+                        </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
 </div>
+
+
+
+
