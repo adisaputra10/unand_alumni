@@ -28,11 +28,7 @@ use app\assets\AppAsset;
             'style' => 'margin:0px;margin-right:15px;'
             ],
         'items' => [
-            ['label' => ' Beranda', 'url' => ['/site/index'],'linkOptions' =>['class'=>'fa fa-home']],
-           ['label' => ' Agenda', 'url' => ['/daftar/kegiatan'],'linkOptions' =>['class'=>'bg-orange fa fa-calendar']],
-            ['label' => ' Pendaftaran Anggota Alumni', 'url' => ['/daftar/identitas-alumni/create'],'linkOptions' =>['class'=>'bg-purple fa fa-paper-plane-o']],
-
-            ['label' => ' Pengisian Tracer Study', 'url' => ['/daftar/tracer-study/create'],'linkOptions' =>['class'=>'bg-red fa fa-key']],
+            ['label' => ' Beranda', 'url' => ['/site/index'],'linkOptions' =>['class'=>'fa fa-home']] ,
                        ['label' => ' Login', 'url' => ['/site/login'],'linkOptions' =>['class'=>'bg-navy fa fa-key']],
         ],
     ]);

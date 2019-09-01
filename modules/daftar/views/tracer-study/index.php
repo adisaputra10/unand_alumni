@@ -30,7 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'alamatemail:email',
             'hp',
             'tahunangkatan',
-            //'tahunlulus',
+            'tahunlulus',
             //'masatunggu',
             //'institusipertama',
             //'pekerjaanpertama',
@@ -45,4 +45,5 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
+    sss
 </div>

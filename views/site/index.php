@@ -45,14 +45,9 @@ $this->title = 'Beranda';
                         </div>
 
                         <img class="mySlides" height="500px" src="https://raw.githubusercontent.com/adisaputra10/unand_alumni/master/web/images/manual/farmasi.jpg" style="width:100%">
-  <img class="mySlides" height="500px" src="https://akademik.unand.ac.id/images/resized/images/resized/images/sampledata/slideshow/Pak_deri_960_300.png" style="width:100%">
-  <img class="mySlides" height="500px"  src="https://raw.githubusercontent.com/adisaputra10/unand_alumni/master/web/images/manual/farmasi.jpg" style="width:100%">
-
-
-
-
-
-                </div>
+                        <img class="mySlides" height="500px" src="https://akademik.unand.ac.id/images/resized/images/resized/images/sampledata/slideshow/Pak_deri_960_300.png" style="width:100%">
+                        <img class="mySlides" height="500px"  src="https://raw.githubusercontent.com/adisaputra10/unand_alumni/master/web/images/manual/farmasi.jpg" style="width:100%">
+               </div>
             </div>
         </div>
     </div>
@@ -62,65 +57,36 @@ $this->title = 'Beranda';
 
     <div class="row">
 
-        <div class="col-lg-4">
-            <div class="panel panel-default">
-                <div class="panel-body center" style="padding-bottom: 0px;">
-                    <div class="well">
-                        <div class="panel-body center" >
-                            <h4 style="font-style: italic;font-weight: bold;font-size: 20px;">Selamat datang di - Universitas Andalas</h4>
-                            <p style="text-align: justify;">
-                                <b><i>Sistem Informasi Alumni Fakultas di Universitas Andalas</i></b> <i></i> .
-                            </p>
-                        </div>
-                    </div>
+      
+      
+            <div class="col-lg-4">
+                <div class="panel panel-default">
+                <a href="http://sipedo.akademik.unand.ac.id">
+                    <img  height="150px" src="https://raw.githubusercontent.com/adisaputra10/unand_alumni/master/web/images/sisfodosen.png" style="width:100%">
+                </a>
                 </div>
             </div>
-        </div>
-
-
-        <div class="col-lg-4">
-            <div class="panel panel-default">
-                <div class="panel-body center" style="padding-bottom: 0px;">
-                    <div class="well">
-                        <div class="panel-body center" >
-                 
-                 
-                        <img  height="100px" src="https://raw.githubusercontent.com/adisaputra10/unand_alumni/master/web/images/manual/farmasi.jpg" style="width:100%">
 
 
 
-                        </div>
-                    </div>
+            <div class="col-lg-4">
+                <div class="panel panel-default">
+                <a href="https://lc.unand.ac.id">
+                    <img  height="150px" src="https://raw.githubusercontent.com/adisaputra10/unand_alumni/master/web/images/bahasa.png" style="width:100%">
+              </a>
                 </div>
             </div>
-        </div>
 
 
-        <div class="col-lg-4">
-            <div class="panel panel-default">
-                <div class="panel-body center" style="padding-bottom: 0px;">
-                    <div class="well">
-                        <div class="panel-body center" >
-                            <h4 style="font-style: italic;font-weight: bold;font-size: 20px;">Selamat datang di - Universitas Andalas</h4>
-                            <p style="text-align: justify;">
-                                <b><i>Sistem Informasi Alumni Fakultas di Universitas Andalas</i></b> <i></i> .
-                            </p>
-                        </div>
-                    </div>
+            <div class="col-lg-4">
+                <div class="panel panel-default">
+<a href="https://pustaka.unand.ac.id">
+                    <img  height="150px" src="https://raw.githubusercontent.com/adisaputra10/unand_alumni/master/web/images/perpus.png" style="width:100%">
+                </a>
                 </div>
             </div>
-        </div>
-
-
-
 
     </div>
-
-
-
-
-    
-
 
 
 

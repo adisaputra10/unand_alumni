@@ -36,7 +36,7 @@ if (Yii::$app->user->isGuest) {
             <title><?php echo Yii::$app->name . ' - '; ?><?= Html::encode($this->title) ?></title>
             <?php $this->head() ?>
         </head>
-        <body class="hold-transition skin-green-light fixed sidebar-collapse- sidebar-mini-">
+        <body class="hold-transition skin-blue-light fixed sidebar-collapse- sidebar-mini-">
             <?php $this->beginBody() ?>
             <div class="wrapper">
 
